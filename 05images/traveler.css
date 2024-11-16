@@ -1,0 +1,158 @@
+
+body {
+   font-family: "Montserrat", sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+   margin: 0;
+}
+
+/* Header Info */
+header {
+    background-color: #F7F4EB;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #7f492e;
+}
+header p {
+    margin: 0;
+    color: #dc9b4e;
+    letter-spacing: .5px; 
+}
+
+/* Nav Info */
+nav {
+    background-color: #dc9b4e;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav ul li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color:#F7F4EB;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #F7F4EB;
+    color: #7a90ba; 
+}
+nav a:hover {
+    color: #7f492e;
+}
+/* main info */
+main {
+   padding: 1rem 2vw; 
+}
+main h1 {
+    color: #7a90ba; 
+}
+main h2 {
+    color: #7f492e;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #1b1505;
+    margin-bottom: .3rem;
+}
+
+main ol {
+   padding: .5rem 3vw;
+   background-color: #F7F4EB;
+   border-radius: 5px
+    
+}
+
+main dl dt {
+    color: #7a90ba;
+    font-weight: 700;
+}
+main dl dd {
+    color: #024873;
+}
+main ul {
+    color: #dc9b4e;
+    background-color: #F7F4EB;
+    padding: .5rem;
+    width: 14.3rem;
+    border-radius: 5px
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+}
+main address {
+    color: #1b1505; 
+   font-style: normal;
+   background-color: #dc9b4e;
+    padding: .5rem;
+    width: 12.5rem;
+    border-radius: 5px
+}
+main a {
+    color: #7a90ba;
+}
+main a:hover {
+    color: #7f492e;
+}
+main address a {
+    color: #1b1505;
+}
+main address a:hover {
+    color: #F7F4EB;
+}
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height:auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #7f492e;
+}
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #7f492e; 
+}
+
+/* Footer Info */
+footer {
+    background-color: #F7F4EB;
+    text-align: center;
+    color: #7f492e;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a{
+    color: #7a90ba;
+}
+
+
+
+
+/* COLORS
+#7f492e BROWN
+#7a90ba BLUE
+#dc9b4e YELLOW
+#1b1505 CHARCOL 
+#F7F4EB BEIGE*/

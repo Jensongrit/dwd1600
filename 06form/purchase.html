@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Sun & Stone: Home</title>
+        
+        <link rel="stylesheet" href="traveler.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Shop for European-inspired furniture and learn the rich history where each piece came from.">
+        <meta name="author" content="Sienna Jenson">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <!--Start of the page header-->
+       <header>
+        <h1>Sun & Stone</h1>
+           <p>Furniture where light meets legacy</p>
+        </header> 
+        <!--Start of the page navigation-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li class="active"><a href="purchase.html">Purchase</a></li>
+
+            </ul>
+        
+        </nav>
+        <!--Start of the page content-->
+        <main>
+            <h1>Purchase a Collection</h1>
+             <form method="get" class="myForm" action="thankyou.html">
+            <fieldset>
+            <legend>Customer Information</legend>
+            <label>First Name <input type="text" name="fname" required></label>
+            <label>Last Name <input type="text" name="lname" required></label>    
+            <label>Cell Phone <input type="tel" name="phone" required placeholder="0624095535"></label> 
+            <label>Email <input type="email" name="email" required></label></fieldset>    
+            
+                
+            <fieldset>
+            <legend>Collection Purchase</legend>
+            <label><input type="checkbox" name="collection" value="costabella"> Costa Bella</label>  
+            <label><input type="checkbox" name="collection" value="nordhavnlodge"> Nordhavn Lodge</label>       
+            <label><input type="checkbox" name="collection" value="lumiereloft"> Lumière Loft</label>        
+            <label><input type="checkbox" name="collection" value="edelwerk"> Edelwerk</label>   
+            <label><input type="checkbox" name="collection" value="alpenglow"> Alpenglow</label> 
+            </fieldset>     
+                 
+            <fieldset>
+            <legend>Delivery Options</legend>
+            <label><input type="radio" name="method" value="warehouse"> Warehouse Pick-up</label>
+            <label><input type="radio" name="method" value="porch"> Porch Delivery</label>   <label><input type="radio" name="method" value="home"> Home Assembly</label>     
+            
+            
+            <label> Delivery Time
+            <select name="time">
+            <option value="none">Please Select</option>   
+            <option value="Morning">Between 7:00am-11:00am</option>      
+            <option value="noon">Between 11:00am-2:00pm</option>       
+            <option value="none">Between 2:00pm-5:00pm</option>   
+            <option value="none">Between 5:00pm-8:00pm</option>   
+            </select></label>
+            </fieldset>
+                 
+            <label>Comments
+            <textarea name="comments"></textarea>  
+            </label>
+                 
+            <input type="submit" value="Place Order">
+            </form>
+    
+        </main>
+        <!--Start of the page footer-->
+        <footer>
+             <p>&copy; 2024 &bull; Sun & Stone &bull; <a href="mailto:sunandstone@gmail.com">Email Us</a></p>
+        </footer>
+    </body>
+
+
+</html>

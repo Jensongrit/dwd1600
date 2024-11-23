@@ -48,7 +48,7 @@ header p {
     }
     nav .active a {
         background-color: #8c501b;
-        background-image: linear-gradient(to bottom, #8c501b, #653A19;)
+        background-image: linear-gradient(to bottom, #8c501b, #653A19);
         color: white;
     }
     
